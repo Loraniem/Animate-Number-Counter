@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <main>
+            <header>
+                <div class="logo">
+                    <a href="#"><img src="./images" alt=""></a>
+                </div>
+                <div class="menu">
+                  <ul>
+                    <li><a href="#">Market</a> </li>
+                    <li><a href="#">Community</a> </li>
+                    <li><a href="#">Wallet</a> </li>
+                    <li><a href="#">EN</a> </li>
+                  </ul>
+                </div>
+            </header>
+            <section class="banner">
+                <div class="banner_text">
+                    <h1>Discover, Collect & Sell NFT</h1>
+                    <p>Explore the NFT world buy and sell NFT easily, with trusted crypto wallet partner.</p>
+                    <div class="btn_group">
+                        <a href="#" class="primary"><span>Discover</span></a>
+                        <a href="#" class="Secondary"><span>Create</span></a>
+                    </div>
+                </div>
+                <div class="banner_img">
+                    <div class="item">
+                        <div class="img_group">
+                            <img src="./images/milad-fakurian-0_8gAoFrzbw-unsplash (1).jpg" alt="">
+                            <img src="./images/milad-fakurian-PGdW_bHDbpI-unsplash (1).jpg" alt="">
+                            <img src="./images/anil-kumar-SXigdcQPbd8-unsplash.jpg" alt="">
+                        </div>
+                        <div class="item_text">
+                            <div class="item_text_left">
+                                <p>Milad Fakurian</p>
+                                <h5>ButterFly Linear Art</h5>
+                            </div>
+                            <div class="item_text_right">
+                                <a href="#"><img src="./images/arrow-right-long-solid.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="item">
+                        <div class="img_group">
+                            <img src="./images/milad-fakurian-0_8gAoFrzbw-unsplash (1).jpg" alt="">
+                            <img src="./images/milad-fakurian-PGdW_bHDbpI-unsplash (1).jpg" alt="">
+                            <img src="./images/anil-kumar-SXigdcQPbd8-unsplash.jpg" alt="">
+                            
+                        </div>
+                        <div class="item_text">
+                            <div class="item_text_left">
+                                <p>Milad Fakurian</p>
+                                <h5>ButterFly Linear Art</h5>
+                            </div>
+                            <div class="item_text_right">
+                                <a href="#"><img src="./images/arrow-right-long-solid.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               
+            </section>   
+        </main>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.cycle/3.0.3/jquery.cycle.all.min.js"></script>
+
+        <script>
+            $(document).ready(function(){
+
+                $('.counter').counterUp({
+                    delay: 10,
+                    time: 2000
+                });
+                $('.img_group').cycle({
+                    timeout:1000
+                });
+            });
+        </script>
+    </body>
+</html>
